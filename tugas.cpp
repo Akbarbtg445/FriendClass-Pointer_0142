@@ -61,6 +61,10 @@ int main() {
     cout << "--Input data belah ketupat--" << endl;
     objectBelah.inputData();
 
+    cout << "--Hasil Perhitungan--" << endl;
+    cout << "Luas Belah Ketupat:" << objectBelah.hitungluas() << endl;
+    objectBelah.tampilkankeliling();
+
     ll.input();
 
     ll.display();
