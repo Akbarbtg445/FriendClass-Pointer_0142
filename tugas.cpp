@@ -61,5 +61,7 @@ int main() {
     ll.input();
     bk.input();
 
+    ll.display();
+
     
 }
