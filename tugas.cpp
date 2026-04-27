@@ -24,6 +24,8 @@ void input() {
         return 0.5 * d1 * d2;
     }
 void display() {
-    
+    cout << "Hasil layang Layang" << endl;
+    cout << "Luas:" << hitungluas() << endl;
+    cout << "keliling:" << hitungkeliling() << endl;
 }
 };
