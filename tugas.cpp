@@ -28,4 +28,5 @@ void display() {
     cout << "Luas:" << hitungluas() << endl;
     cout << "keliling:" << hitungkeliling() << endl;
 }
+friend class Belahketupat;
 };
