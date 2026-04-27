@@ -41,15 +41,11 @@ void inputData() {
     cout << "Masukan Diagonal 2:"; cin >> d2;
     cout << "Masukan Sisi:"; cin >> s;
 }
-    double keliling() {
-        return 4 * s;
-    }
     double hitungluas() {
         return 0.5 * d1 * d2;
     }
 void tampilkankeliling() {
-    cout << "Hasil Belahketupat" << endl;
-    cout << "Luas:" << hitungluas() << endl;
+  double keliling = 4 * s;
     cout << "keliling Belah Ketupat:" << keliling << endl;
 }
 };
