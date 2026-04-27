@@ -28,6 +28,8 @@ void display() {
     cout << "Luas:" << hitungluas() << endl;
     cout << "keliling:" << hitungkeliling() << endl;
 }
+friend class Belahketupat;
+
 class Belahketupat {
     private:
     int d1,d2,s;
@@ -50,7 +52,6 @@ void display() {
     cout << "Luas:" << hitungluas() << endl;
     cout << "keliling:" << hitungkeliling() << endl;
 }
-friend class Belahketupat;
 };
 
 int main() {
