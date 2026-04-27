@@ -10,7 +10,7 @@ class LayangLayang {
     int d1,d2,s1,s2;
 
 public:
-void input() {
+void inputDataL() {
     cout << "--Input Layang-Layang--"<<endl;
     cout << "Masukan Diagonal 1:"; cin >> d1;
     cout << "Masukan Diagonal 2:"; cin >> d2;
@@ -58,6 +58,12 @@ int main() {
     cout << "Luas Belah Ketupat:" << objectBelah.hitungluas() << endl;
     objectBelah.tampilkankeliling();
 
+    cout << "--Input data LayangLayang--" << endl;
+    objectlayang.inputDataL();
+
+    cout << "--Hasil Perhitungan--" << endl;
+    cout << "Luas Layang Layang:" << objectlayang.hitungluas() << endl;
+    objectlayang.tampilkankeliling();
    
 
     return 0;
