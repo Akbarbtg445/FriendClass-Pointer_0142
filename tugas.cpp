@@ -17,16 +17,13 @@ void input() {
     cout << "Masukan Sisi Miring 1:"; cin >> s1;
     cout << "Masukan Sisi Miring 2:"; cin >> s2;
 }
-    double hitungkeliling() {
-        return 2 * (s1 + s2);
-    }
+    
     double hitungluas() {
         return 0.5 * d1 * d2;
     }
-void display() {
-    cout << "Hasil layang Layang" << endl;
-    cout << "Luas:" << hitungluas() << endl;
-    cout << "keliling:" << hitungkeliling() << endl;
+void tampilkankeliling() {
+    double hitung = 2 * (s1 + s2);
+    cout << "keliling Layang Layang" << hitung << endl;
 }
 
 friend class Belahketupat;
@@ -51,7 +48,7 @@ void tampilkankeliling() {
 };
 
 int main() {
-    LayangLayang ll;
+    LayangLayang objectlayang;
     Belahketupat objectBelah;
 
     cout << "--Input data belah ketupat--" << endl;
@@ -61,9 +58,7 @@ int main() {
     cout << "Luas Belah Ketupat:" << objectBelah.hitungluas() << endl;
     objectBelah.tampilkankeliling();
 
-    ll.input();
-
-    ll.display();
+   
 
     return 0;
 }
