@@ -8,5 +8,11 @@ class Belahketupat;
 class LayangLayang {
     int d1,d2
 
-    public:
-}
+public:
+    double hitungkeliling() {
+
+    }
+    double hitungluas() {
+        return 0.5 * d1 * d2;
+    }
+};
